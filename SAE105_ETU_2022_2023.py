@@ -110,8 +110,9 @@ def appelNombre_Villes_Indicatif(indTel, listeInfo):
     l05 = ["09","12","16","17","19","23","24","31","32","33","40","46","47","64","65","79","81","82","86","87","971","972","973","975","977","978"] 
     
     indTel = l01 + l02 + l03 + l04 + l05
-    for i in range(len(indTel)):
-        if listeInfo[2][2] == indTel[i]
+    print(indTel)
+    elt = indTel[31]
+    indTel.count(elt)
         
 
 #--------------------------------------------------------

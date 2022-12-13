@@ -105,10 +105,7 @@ def appelNombre_Villes_Indicatif(indTel, listeInfo):
     """
     print("indicatif =",indTel)
     l01 = ["75","77","78","91","92","93","94","95"]
-    l02 = ["14","18","22","27","28","29","35","36","37","41","44","45","49","50","53","56","61","72","76","85","974","976"]
     l03 = ["02","08","10","21","25","39","51","52","54","55","57","58","59","60","62","67","68","70","71","80","88","89","90"]
-    l04 = ["01","03","04","05","06","07","11","13","15","2A","2B","26","30","34","38","42","43","48","63","66","69","73","74","83","84"]
-    l05 = ["09","12","16","17","19","23","24","31","32","33","40","46","47","64","65","79","81","82","86","87","971","972","973","975","977","978"] 
     
     #nbVilles = extract_villes_depart_indicatif(l03, listeInfo)
     C = 0
@@ -119,31 +116,10 @@ def appelNombre_Villes_Indicatif(indTel, listeInfo):
                     C += 1
                     print(C)
     
-    elif indTel == '02':
-        for i in range(len(listeInfo)):
-            for j in range(len(l02)):
-                if l02[j] == listeInfo[i][0]:
-                    C += 1
-                    print(C)
-    
     elif indTel == '03':
         for i in range(len(listeInfo)):
             for j in range(len(l03)):
                 if l03[j] == listeInfo[i][0]:
-                    C += 1
-                    print(C)
-
-    elif indTel == '04':
-        for i in range(len(listeInfo)):
-            for j in range(len(l04)):
-                if l04[j] == listeInfo[i][0]:
-                    C += 1
-                    print(C)
-
-    elif indTel == '05':
-        for i in range(len(listeInfo)):
-            for j in range(len(l05)):
-                if l05[j] == listeInfo[i][0]:
                     C += 1
                     print(C)
 #--------------------------------------------------------

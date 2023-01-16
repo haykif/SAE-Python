@@ -258,13 +258,6 @@ def mapTenVilles(maxPopul, minPopul):
         listeMin.append(Min.readlines()[i].split(','))
         listMax.append(Max.readlines()[i].split(','))
 
-
-
-    """
-        A compléter
-    """
-
-
 def MinMax10Accroissement(lstVillesDepart):
     """
     :param lstVillesDepart:

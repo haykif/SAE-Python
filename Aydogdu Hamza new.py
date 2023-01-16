@@ -192,13 +192,6 @@ def extract_villes_NumDepart(numDept, listeVilles):
             cpt += 1
     f.write("fin")
     return cpt
-
-
-"""
-    A compléter
-"""
-
-
 # ================================================
 # Fonctions Utiles pour le Tri Bulle lié à la POPULATION
 # ================================================

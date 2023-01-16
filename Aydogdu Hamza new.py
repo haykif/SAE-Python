@@ -94,8 +94,9 @@ def extract_info_villes(uneListe):
 # ====================================================================
 def appelNombre_Villes_Indicatif(indTel, unelisteInfo):
     """
-        A compléter
-    # """
+        Cette fonction permet d'appeler toutes les villes (et les informations qui les concernent)
+        de tout les département de la France ayant le même indicatif téléphonique.
+    """
     id01 = [[75, 77, 78, 91, 92, 93, 94, 95],
             [14, 18, 22, 27, 28, 29, 35, 36, 37, 41, 44, 45, 49, 50, 53, 56, 61, 72, 76, 85, 974, 976],
             [2, 8, 10, 21, 25, 39, 51, 52, 54, 55, 57, 58, 59, 60, 62, 67, 68, 70, 71, 80, 88, 89, 90],
